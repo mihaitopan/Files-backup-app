@@ -11,9 +11,11 @@ enter raw view for an xml file example
 	 </users>
 
 Clients can be of 2 types: users and admins
+
 USERS can:  change their password; 
 			list their files;
 			delete, rename, upload or download a file;
+
 ADMINS can: add users;
 			list users;
 			change the password of a user;
