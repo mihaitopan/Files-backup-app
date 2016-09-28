@@ -5,10 +5,10 @@ The server takes as line arguments an xml file containing current users and a pa
 files will be stored.
 
 xml file example: 
-	<users>
-		<user name="admin" password="test" role="admin"/>
-		<user name="mike" password="pass" role="user"/>
-	</users>
+	// <users>
+	//	<user name="admin" password="test" role="admin"/>
+	//	<user name="mike" password="pass" role="user"/>
+	// </users>
 
 Clients can be of 2 types: users and admins
 
