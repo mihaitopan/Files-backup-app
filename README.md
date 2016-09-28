@@ -1,6 +1,4 @@
 # Files-backup-app
-Client-server, backup-to-disk application.
-
 Simple client-server, backup-to-disk application, which I designed in order to manage some of my files.
 
 The server takes as line arguments an xml file containing current users and a path to the directory the backup
