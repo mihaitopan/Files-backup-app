@@ -1,0 +1,24 @@
+# Files-backup-app
+Simple client-server via TCP sockets, backup-to-disk application, which I designed in order to manage some of my files.
+
+The server takes as line arguments an xml file containing current users and a path to the directory the backup
+files will be stored.
+
+enter raw view for an xml file example
+	 <users>
+		<user name="admin" password="test" role="admin"/>
+		<user name="mike" password="pass" role="user"/>
+	 </users>
+
+Clients can be of 2 types: users and admins
+
+USERS can:  change their password; 
+			list their files;
+			delete, rename, upload or download a file;
+
+ADMINS can: add users;
+			list users;
+			change the password of a user;
+			delete, rename a user;
+			impersonate a user (do user operations with that user's signature);
+			revert to self (become the original admin again);
