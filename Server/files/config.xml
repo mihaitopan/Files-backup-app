@@ -1,4 +1,0 @@
-<users>
-    <user name="admin" password="test" role="admin"/>
-    <user name="mike" password="pass" role="user"/>
-</users>
